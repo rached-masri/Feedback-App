@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Card from './shared/Card'
+import Button from './shared/Button'
 
 
 function FeedbackForm() {
@@ -22,9 +23,9 @@ function FeedbackForm() {
             placeholder='Write a review'
             value={text}
           />
-          <button type='submit'>
+          <Button type='submit'>
             Send
-          </button>
+          </Button>
         </div>
 
       </form>
